@@ -21,3 +21,8 @@ audio.currentTime = 0;
 ```css
 transition: all .07s ease;
 ```
+
+###Resources
+* A **[website][1]** that you can get KavaScript event Keycode quickly and easily
+
+[1]:http://keycode.info/
