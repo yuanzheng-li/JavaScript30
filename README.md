@@ -9,3 +9,4 @@ Each challenge includes notes, thoughts, skills learned.
 ## Table of Contents
 
 [JavaScript Drum Kit](./01%20-%20JavaScript%20Drum%20Kit)
+[JS and CSS Clock](./02%20-%20JS%20and%20CSS%20Clock)
