@@ -1,6 +1,6 @@
 # CSS Variables
 
-## The purpose of this challenge is to learn CSS custom properties (variables).
+The purpose of this challenge is to learn CSS custom properties (variables).
 
 ## Notes
 

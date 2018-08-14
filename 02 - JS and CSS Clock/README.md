@@ -2,8 +2,6 @@
 
 This mini-project creates a clock using JS and CSS.
 
----
-
 ## Notes
 
 ### transform-origin
