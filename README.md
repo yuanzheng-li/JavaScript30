@@ -13,3 +13,4 @@ Each challenge includes notes, thoughts, skills learned.
 3.  [CSS Variables](./03%20-%20CSS%20Variables)
 4.  [Array Cardio 1](./04%20-%20Array%20Cardio%20Day%201)
 5.  [Flex Panel Gallery](./05%20-%20Flex%20Panel%20Gallery%20)
+6.  [Type Ahead](./06%20-%20Type%20Ahead)
