@@ -32,6 +32,6 @@ transition: all 0.07s ease;
 
 ### Resources
 
-- A **[website][1]** that you can get KavaScript event Keycode quickly and easily
+- A **[website][1]** that you can get JavaScript event Keycode quickly and easily
 
 [1]: http://keycode.info/
