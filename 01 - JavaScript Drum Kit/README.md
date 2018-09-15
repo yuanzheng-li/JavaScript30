@@ -1,6 +1,6 @@
 # JavaScript Drum Kit
 
-This mini-project allow users to play drum sounds through keyboard.
+This mini-project allows users to play drum sounds through keyboard.
 
 ## Notes
 
