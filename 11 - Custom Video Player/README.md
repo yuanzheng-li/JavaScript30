@@ -2,7 +2,7 @@
 
 ## Notes
 
-- [HTML <video> element][1] embeds a media player into the document.
+- [HTML &lt;video&gt; element][1] embeds a media player into the document.
 
 - You can create custom controls using Javascript and the [HTMLMediaElement][2] API.
 
