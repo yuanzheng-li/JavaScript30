@@ -18,3 +18,4 @@ Each challenge includes notes, thoughts, skills learned.
 8.  [Fun with HTML5 Canvas](./08%20-%20Fun%20with%20HTML5%20Canvas)
 9.  [Dev Tools Domination](./09%20-%20Dev%20Tools%20Domination)
 10. [Hold Shift and Check Checkboxes](./10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
+11. [Custom Video Player](./11%20-%20Custom%20Video%20Player)
