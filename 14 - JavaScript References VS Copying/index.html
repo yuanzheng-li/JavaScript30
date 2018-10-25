@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS Reference VS Copy</title>
 </head>
+
 <body>
 
   <script>
@@ -14,21 +16,21 @@
     // age = 200;
     // console.log(age, age2);
 
-    // let name = 'Wes';
+    // let name = 'Yuan';
     // let name2 = name;
     // console.log(name, name2);
-    // name = 'wesley';
+    // name = 'Yuanzheng';
     // console.log(name, name2);
 
     // Let's say we have an array
-    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+    const players = ['Zhang', 'Wang', 'Li', 'Zhao'];
 
     // and we want to make a copy of it.
     const team = players;
 
     console.log(players, team);
     // You might think we can just do something like this:
-    // team[3] = 'Lux';
+    // team[3] = 'Qian';
 
     // however what happens when we update that array?
 
@@ -48,7 +50,7 @@
 
     // or use the new ES6 Spread
     const team4 = [...players];
-    team4[3] = 'heeee hawww';
+    team4[3] = 'Sun';
     console.log(team4);
 
     const team5 = Array.from(players);
@@ -59,8 +61,8 @@
 
     // with Objects
     const person = {
-      name: 'Wes Bos',
-      age: 80
+      name: 'Xiao Ming',
+      age: 9
     };
 
     // and think we make a copy:
@@ -68,7 +70,10 @@
     // captain.number = 99;
 
     // how do we take a copy instead?
-    const cap2 = Object.assign({}, person, { number: 99, age: 12 });
+    const cap2 = Object.assign({}, person, {
+      number: 99,
+      age: 12
+    });
     console.log(cap2);
 
     // We will hopefully soon see the object ...spread
@@ -76,24 +81,23 @@
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
 
-    const wes = {
-      name: 'Wes',
-      age: 100,
+    const xiaohong = {
+      name: 'Xiao Hong',
+      age: 10,
       social: {
-        twitter: '@wesbos',
-        facebook: 'wesbos.developer'
+        twitter: 'honghuo',
+        facebook: 'huohong'
       }
     };
 
     console.clear();
-    console.log(wes);
+    console.log(xiaohong);
 
-    const dev = Object.assign({}, wes);
+    const dev = Object.assign({}, xiaohong);
 
-    const dev2 = JSON.parse(JSON.stringify(wes));
-
-
+    const dev2 = JSON.parse(JSON.stringify(xiaohong));
   </script>
 
 </body>
+
 </html>
