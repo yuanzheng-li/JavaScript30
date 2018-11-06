@@ -8,7 +8,7 @@ function getVideo() {
   navigator.mediaDevices
     .getUserMedia({
       video: true,
-      audio: false,
+      audio: false
     })
     .then((localMediaStream) => {
       try {
@@ -54,12 +54,12 @@ function greenScreen(pixels) {
     const blue = pixels.data[i + 2];
 
     if (
-      red >= levels.rmin
-      && green >= levels.gmin
-      && blue >= levels.bmin
-      && red <= levels.rmax
-      && green <= levels.gmax
-      && blue <= levels.bmax
+      red >= levels.rmin &&
+      green >= levels.gmin &&
+      blue >= levels.bmin &&
+      red <= levels.rmax &&
+      green <= levels.gmax &&
+      blue <= levels.bmax
     ) {
       // take it out!
       pixels.data[i + 3] = 0;
