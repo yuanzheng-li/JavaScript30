@@ -16,7 +16,7 @@ function getVideo() {
       video.play();
     })
     .catch(error => {
-      console.error('Error: ', error);
+      console.error("Error: ", error);
     });
 }
 
@@ -41,7 +41,7 @@ function rgbSplit(pixels) {
 function greenScreen(pixels) {
   const levels = {};
 
-  document.querySelectorAll('.rgb input').forEach(input => {
+  document.querySelectorAll(".rgb input").forEach(input => {
     levels[input.name] = input.value;
   });
 
