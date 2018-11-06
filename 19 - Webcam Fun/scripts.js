@@ -6,11 +6,8 @@ const snap = document.querySelector('.snap');
 
 function getVideo() {
   navigator.mediaDevices
-    .getUserMedia({
-      video: true,
-      audio: false
-    })
-    .then((localMediaStream) => {
+    .getUserMedia({ video: true, audio: false })
+    .then(localMediaStream => {
       try {
         video.srcObject = localMediaStream;
       } catch (e) {
@@ -18,7 +15,7 @@ function getVideo() {
       }
       video.play();
     })
-    .catch((error) => {
+    .catch(error => {
       console.error('Error: ', error);
     });
 }
@@ -44,7 +41,7 @@ function rgbSplit(pixels) {
 function greenScreen(pixels) {
   const levels = {};
 
-  document.querySelectorAll('.rgb input').forEach((input) => {
+  document.querySelectorAll('.rgb input').forEach(input => {
     levels[input.name] = input.value;
   });
 
