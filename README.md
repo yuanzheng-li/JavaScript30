@@ -28,3 +28,4 @@ Each challenge includes notes, thoughts, skills learned.
 18. [Adding Up Times with Reduce](./18%20-%20Adding%20Up%20Times%20with%20Reduce)
 19. [Webcam Fun](./19%20-%20Webcam%20Fun)
 20. [Speech Detection](./20%20-%20Speech%20Detection)
+21. [Geolocation](./21%20-%20Geolocation)
