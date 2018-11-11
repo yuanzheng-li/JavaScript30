@@ -29,3 +29,4 @@ Each challenge includes notes, thoughts, skills learned.
 19. [Webcam Fun](./19%20-%20Webcam%20Fun)
 20. [Speech Detection](./20%20-%20Speech%20Detection)
 21. [Geolocation](./21%20-%20Geolocation)
+22. [Follow Along Link Highlighter](./22%20-%20Follow%20Along%20Link%20Highlighter)
