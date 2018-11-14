@@ -17,3 +17,7 @@ When set `capture: true` in the 3rd argument of `addEventListener`, the event ha
 ### Once
 
 When set `once: true` in the 3rd argument of `addEventListener`, the event handler is run only once and then gets unbind.
+
+### `event.stopPropagation()`
+
+Stop the event bubbling or capturing (with `capture: true`).
