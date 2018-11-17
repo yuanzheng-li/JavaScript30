@@ -34,3 +34,4 @@ Each challenge includes notes, thoughts, skills learned.
 24. [Sticky Nav](./24%20-%20Sticky%20Nav)
 25. [Event Capture, Propagation, Bubbling and Once](./25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once)
 26. [Stripe Follow Along Nav](./26%20-%20Stripe%20Follow%20Along%20Nav)
+27. [Click and Drag](./27%20-%20Click%20and%20Drag)
