@@ -36,3 +36,4 @@ Each challenge includes notes, thoughts, skills learned.
 26. [Stripe Follow Along Nav](./26%20-%20Stripe%20Follow%20Along%20Nav)
 27. [Click and Drag](./27%20-%20Click%20and%20Drag)
 28. [Video Speed Controller](./28%20-%20Video%20Speed%20Controller)
+29. [Countdown Timer](./29%20-%20Countdown%20Timer)

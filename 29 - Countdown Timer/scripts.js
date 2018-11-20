@@ -1,6 +1,6 @@
 const displayTime = document.querySelector(".display__time-left");
 const displayEnd = document.querySelector(".display__end-time");
-const buttons = document.querySelectorAll('button[data-time]');
+const buttons = document.querySelectorAll("button[data-time]");
 let countDown;
 
 function timer(seconds) {
@@ -25,7 +25,7 @@ function timer(seconds) {
 function displayTimeLeft(seconds) {
   const minute = Math.floor(seconds / 60);
   const second = seconds % 60;
-  const displayContent = `${minute}:${second < 10 ? '0' : ''}${second}`;
+  const displayContent = `${minute}:${second < 10 ? "0" : ""}${second}`;
   displayTime.textContent = displayContent;
   document.title = displayContent;
 }
@@ -35,7 +35,9 @@ function displayEndTime(timestamp) {
   const hours = end.getHours();
   const adjustedHours = hours > 12 ? hours - 12 : hours;
   const minutes = end.getMinutes();
-  displayEnd.textContent = `Be back at ${adjustedHours}:${minutes < 10 ? '0' : ''}${minutes}`;
+  displayEnd.textContent = `Be back at ${adjustedHours}:${
+    minutes < 10 ? "0" : ""
+  }${minutes}`;
 }
 
 function startTimer() {
@@ -50,5 +52,5 @@ function onSubmit(e) {
   timer(seconds);
 }
 
-buttons.forEach((button) => button.addEventListener('click', startTimer));
-document.customForm.addEventListener('submit', onSubmit);
+buttons.forEach(button => button.addEventListener("click", startTimer));
+document.customForm.addEventListener("submit", onSubmit);
